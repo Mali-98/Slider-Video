@@ -1,20 +1,16 @@
 #slider-container {
     position: relative;
-    width: 200px;
-    height: 200px;
-    margin: 50px auto;
-    border-radius: 50%;
-    overflow: hidden;
-    transform: rotate(-90deg); /* Start from the top */
-    border: 2px solid #ccc; /* Add a border for visibility */
+    width: 600px;
+    height: 10px;
+    margin: 20px auto;
+    background: #ccc;
+    border-radius: 5px;
 }
 
 #slider {
     position: absolute;
-    width: 200px;
-    height: 200px;
-    transform: rotate(90deg); /* Rotate back to normal */
-    transform-origin: center;
+    width: 100%;
+    height: 10px;
     appearance: none;
     background: transparent;
     cursor: pointer;
@@ -27,6 +23,7 @@
     background: #000;
     border-radius: 50%;
     cursor: pointer;
+    margin-top: -5px;
 }
 
 #slider::-moz-range-thumb {
@@ -35,4 +32,5 @@
     background: #000;
     border-radius: 50%;
     cursor: pointer;
+    margin-top: -5px;
 }
