@@ -3,6 +3,12 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
 }
 
 video {
@@ -11,21 +17,22 @@ video {
 
 #bar-container {
     position: relative;
-    width: 600px;
-    height: 200px;
-    margin: 30px auto;
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
 }
 
 #bar {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 400px;
+    width: 200px;
     height: 10px;
     background: linear-gradient(to right, blue 0%, blue 0%, #666161 0%, #979090 0%);
     transform-origin: center;
     transform: rotate(0deg);
     transition: transform 0.1s linear;
+    margin-left: -100px;
 }
 
 .handle {
