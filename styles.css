@@ -22,7 +22,7 @@ video {
     left: 50%;
     width: 400px;
     height: 10px;
-    background: linear-gradient(to right, blue 0%, blue 0%, #333 0%, #333 100%);
+    background: linear-gradient(to right, blue 0%, blue 0%, #666161 0%, #979090 0%);
     transform-origin: center;
     transform: rotate(0deg);
     transition: transform 0.1s linear;
@@ -31,7 +31,7 @@ video {
 .handle {
     width: 20px;
     height: 20px;
-    background: #000;
+    background: #afa6a6;
     border-radius: 50%;
     position: absolute;
     top: 50%;
