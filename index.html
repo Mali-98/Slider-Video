@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rotating Slider Video Control</title>
+    <title>Interactive Rotating Bar</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <video id="video" width="600" controls>
         <source src="GITEX 2022.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    <div id="slider-container">
-        <input type="range" id="slider" min="0" max="100" value="0">
+    <div id="bar-container">
+        <div id="bar">
+            <div class="handle" id="handle-left"></div>
+            <div class="handle" id="handle-right"></div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
