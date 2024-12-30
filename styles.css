@@ -6,6 +6,7 @@
     border-radius: 50%;
     overflow: hidden;
     transform: rotate(-90deg); /* Start from the top */
+    border: 2px solid #ccc; /* Add a border for visibility */
 }
 
 #slider {
@@ -16,6 +17,7 @@
     transform-origin: center;
     appearance: none;
     background: transparent;
+    cursor: pointer;
 }
 
 #slider::-webkit-slider-thumb {
